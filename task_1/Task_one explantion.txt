@@ -1,0 +1,55 @@
+HTML Code Explanation:
+
+1. `<!DOCTYPE html>`: This is like a special label that tells browsers, "Hey, this is an HTML webpage!"
+
+2. `<html lang="en">`: It's like the container for everything on the webpage, and we're saying we'll use English.
+
+3. `<head>`: Think of this as the behind-the-scenes area where we set important things for the webpage.
+   - `<meta charset="UTF-8">`: Makes sure our text shows up correctly, even if we use different languages.
+   - `<meta http-equiv="X-UA-Compatible" content="IE=edge">`: Helps older browsers understand the webpage better.
+   - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Helps the webpage fit nicely on different devices.
+   - `<title>WithLove</title>`: The name that appears on the browser tab.
+   - `<link rel="stylesheet" href="style.css">`: This brings in our style instructions from another file.
+
+4. `<body>`: Imagine this is like the body of the webpage, where everything we see goes.
+   - `<header>`: It's like the top part of a page with the logo and menu.
+     - `<nav>`: The navigation bar where we put our links.
+       - `<div class="logo">`: Where the website name or logo would go.
+       - `<div class="menu">`: A place for links like Home, Services, Special, and Prices.
+       - `<div class="register">`: A spot for a link to "Register."
+
+   - `<section class="h-text">`: A special area for the main text on the top part.
+     - `<span>Enjoy</span>`: Just a little word, "Enjoy."
+     - `<h1>WithLove Delhites</h1>`: A big heading that says "WithLove Delhites."
+     - `<a href="#">Order Now</a>`: A link we can click to "Order Now."
+
+CSS Code Explanation:
+
+1. `@import url("https://fonts.googleapis.com/css?family=Trirong");`: It's like borrowing a special font from the internet.
+
+2. `*`: This is like a magic wand that affects everything on the page.
+   - `padding: 0;`, `margin: 0;`: Clears out extra space around things.
+   - `box-sizing: border-box;`: Helps measure things properly.
+
+3. `header`: This is like giving a nice look to the top part.
+   - `background`: It's like painting the background with a picture and some colors.
+
+4. `nav`: This is like decorating the navigation bar.
+   - `color: #fff;`: Makes the text white.
+   - `display: flex;`: Arranges the links neatly side by side.
+   - `justify-content: space-around;`: Spreads out the links evenly.
+
+5. `.logo`, `.menu a`, `.register`: These are like labels to style different parts.
+   - They control things like font size, color, and spacing.
+
+6. `.h-text`: This is like making the main text in the middle.
+   - `position` and `transform` help put it in the right place.
+   - `color: #fff;`: Changes the text color to white.
+
+7. `.h-text span`, `.h-text h1`, `.h-text a`: These labels style the words and links.
+   - They control things like spacing and size.
+
+8. `.h-text a:hover`: This is like adding a fun effect when we move our mouse over "Order Now."
+   - It changes the border and background color to look nice.
+
+This code creates a webpage that has a nice header with a logo, menu, and a big heading. There's also a special area for text and a link to order something. The styles make everything look neat and attractive.
